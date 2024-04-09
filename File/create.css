@@ -1,0 +1,22 @@
+.login{
+    width: 280px;
+    height: 370px;
+    background-color: rgb(27, 71, 148);
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 25px;
+    border-radius: 10px;
+ 
+ 
+    }
+    body{
+        background-color: rgb(9, 65, 65);
+    }
+    #Log{
+        border: solid ;
+        border-radius: 55px;
+    }

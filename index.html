@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="ASS.css">
+    <script src="https://kit.fontawesome.com/09b521b2fe.js" crossorigin="anonymous"></script>
+ 
+  </head>
+<body>
+  
+    <div id="header">
+      <div class="container">
+        <nav>
+         <img src="Logo.png" class="logo">  
+         <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">My Skill</a></li>
+          <li><a href="#content">Contact</a></li>
+         
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+         </ul> 
+         <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+       
+          <h1>Hi I'm <span> Fuad</span> Seid <br> From  Ethiopia</h1>
+          <p> And I am <span class="text1"></span></p><br>
+          <p> And I am <span class="text2" style="color: rgb(221, 255, 0);"></span></p>
+        </div>
+      </div>  
+    </div>
+    <!-------about---------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="user.jpg" alt="" height="400px">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>Hello People My name is Fuad Seid Mohammed I am from Afar <br> And I am A Software Engineer Student at Debre birhan University <br>And i am A web designner and other Programming Language Programmer </p> <br>
+          <div class="tab-titels">
+           <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+           <p class="tab-links" onclick="opentab('Exprience')">Exprience</p>
+           <p class="tab-links" onclick="opentab('Education')">Education</p>
+           
+          </div>
+          <div>
+            <div class="tab-contents  active-tab" id="Skills">
+              <ul>
+            <li><span>Web Development</span><br>Web app development</li>
+            <li><span>Writing Code Perfectly</span><br>Coding A C++ Program</li>
+            <li><span>App Development</span><br>Building Android apps</li>
+
+
+              </ul>
+            </div>
+            <div class="tab-contents" id="Exprience">
+              <ul>
+            <li><span>2023-Currnt</span><br>Doing Some sample Website</li>
+            <li><span>2022-Current</span>Work Different C++ Program</li>
+            <li><span>Talking The Course</span><br>Little</li>
+            </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+           
+            <li><span>2024</span><br>Will have Software Engineering Degree in 2026 At Debre birhan Unversity In Ethiopia</li>
+            <li><span>2024</span><br>Will have Software Engineering Degree in 2026 At Debre birhan Unversity In Ethiopia</li>
+            <li><span>2024</span><br>Will have Software Engineering Degree in 2026 At Debre birhan Unversity In Ethiopia</li>
+            
+              </ul>
+            </div>
+
+              </ul>
+            </div>
+            
+          </div>
+          </div> 
+        </div>
+      </div>
+  <!-------------Service--------------->
+  <div id="service">
+<div class="container">
+<h1 class="sub-title">My Services</h1>
+<div class="service-list">
+
+  <div>
+    <i class="fa-solid fa-code"></i>
+    <h2>Web Design</h2>
+    <p>That is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience</p>
+  <a href="#">Learn more</a>
+  </div>
+  <div>
+    <i class="fa-regular fa-file-code"></i>
+    <h2>C++ Programming</h2>
+    <p>That is a generic programming language for building software. It's an object-oriented language.</p>
+  <a href="#">Learn more</a>
+  </div>
+  <div>
+    <i class="fa-brands fa-app-store-ios"></i>
+    <h2>App Design</h2>
+    <p>That is the process of creating the visual look, layout, and flow of an application's interface.</p>
+  <a href="#">Learn more</a>
+  </div>
+
+
+</div>
+
+</div>
+
+  </div>
+  <!-------------Portfolio--------------->
+<div id="portfolio">
+
+<div class="container">
+<h1 class="sub-title">My Work</h1>
+<div class="work-list">
+<div class="work">
+  <img src="pexels-pixabay-271624.jpg"  alt="">
+  <div class="layer">
+    <h3>Bed-room Reservation Website </h3>
+    <p>This Website is Used to Reserve Bedroom in the hotel online <br> done with HTML and CSS</p>
+    <a href="File/assignment.html"><i class="fa-solid fa-link" target="_blank"></i></a>
+  </div>
+</div>
+<div class="work">
+  <img src="pexels-pixabay-258154.jpg"  alt="">
+  <div class="layer">
+    <h3>Bed-room Reservation C++ Program </h3>
+    <p>This Website is Used to Reserve Bedroom in the hotel online <br> done with C++</p>
+    <a href="File/CPP.cpp" target="_blank"><i class="fa-solid fa-link"></i></a>
+  </div>
+</div>
+
+
+</div>
+<a href="#" class="btn">See more</a>
+
+</div>
+</div>
+<!--------------My skill--------------->
+
+<section id="skills" class="skills">
+<h1>My Skill</h1><br><br>
+  <div class="skill-main">
+  <div class="skill-left">
+<h3>Technical Skills</h3>
+<div class="skill-bar">
+  <div class="info">
+    <p>HTML</p>
+    <p>95%</p> 
+  </div>
+  <div class="bar">
+    <span class="html">html</span>
+  </div>
+</div>
+
+
+<div class="skill-bar">
+  <div class="info">
+    <p>CSS</p>
+    <p>85%</p> 
+  </div>
+  <div class="bar">
+    <span class="css">css</span>
+  </div>
+</div>
+
+<div class="skill-bar">
+  <div class="info">
+    <p>Java Script</p>
+    <p>72%</p> 
+  </div>
+  <div class="bar">
+    <span class="js">js</span>
+  </div>
+</div>
+
+<div class="skill-bar">
+  <div class="info">
+    <p>PHP</p>
+    <p>65%</p> 
+  </div>
+  <div class="bar">
+    <span class="php">php</span>
+  </div>
+</div>
+
+<div class="skill-bar">
+  <div class="info">
+    <p>C++</p>
+    <p>97%</p> 
+  </div>
+  <div class="bar">
+    <span class="c">c++</span>
+  </div>
+  
+</div>
+<div class="skill-bar">
+  <div class="info">
+    <p>JAVA</p>
+    <p>86%</p> 
+  </div>
+  <div class="bar">
+    <span class="java">java</span>
+  </div>
+  
+</div>
+
+
+
+  </div>
+  
+  
+</div>
+</section><br><br><br><br>
+<!-------------Content--------------->
+<div id="content">
+<div class="container">
+  <div class="row">
+    <div class="cont-left">
+      <h1 class="sub-title">Contact Me</h1>
+      <p><i class="fa-solid fa-paper-plane"></i> fuaddbus@gmail.com</p>
+      <p><i class="fa-solid fa-phone"></i> 0907242838</p>
+      <div class="social-icon">
+        <a href="https://www.facebook.com/fuaddbus?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/fuaddbus/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/fuad-seid-8b61322a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <a href="CV.pdf" class="btn btn2">Download CV</a>
+    </div>
+    <div class="cont-Right">
+<form>
+  <input type="text" name="Name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+  <button type="submit" class="btn btn2">Submit</button>
+</form>
+
+    </div>
+  </div>
+</div>
+<div class="copyright">
+  <p>Copyright <i class="fa-regular fa-copyright"></i> Fuad. Made by fuaddbus  </p>
+</div>
+</div>
+    <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");    
+  function opentab(tabname){
+  
+   for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+   }
+   for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab"); 
+   }
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+  }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px";
+      }
+   
+    </script>
+       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+         var typed = new Typed('.text1',{
+        strings : ['Software Engineer','Web developer','Programmer'],
+       
+        typingSpeed:1000,
+        backSpeed:150,
+        backDelay:1000,
+        loop:true
+        
+      });
+      
+
+    </script>
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script>
+          var typed = new Typed('.text2',{
+         strings : ['Fuad Seid','DBU1401283','Student At DBU'],
+        
+         typingSpeed:1000,
+         backSpeed:150,
+         backDelay:1000,
+         loop:true
+         
+       });
+       
+ 
+     </script>
+</body>
+</html>
+
+
